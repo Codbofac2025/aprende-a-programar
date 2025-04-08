@@ -161,3 +161,78 @@ footer {
     color: #ddd;
     font-weight: bold;
 }
+
+/* Media Query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    section {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    textarea {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
+
+/* Media Query para pantallas extra pequeñas (móviles) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    nav ul li {
+        font-size: 1rem;
+        padding: 8px;
+    }
+
+    section {
+        width: 95%;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+        padding: 8px 18px;
+    }
+}
