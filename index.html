@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprende a Programar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>¡Aprende a Programar!</h1>
+        <nav>
+            <ul>
+                <li><a href="#html">HTML</a></li>
+                <li><a href="#css">CSS</a></li>
+                <li><a href="#js">JavaScript</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="html">
+        <h2>HTML - Estructura Básica</h2>
+        <p>HTML es el lenguaje de marcado utilizado para crear páginas web. Escribe una estructura básica de HTML, con
+            etiquetas como &lt;html&gt;, &lt;head&gt;, &lt;body&gt; y &lt;h1&gt;.</p>
+        <h3>Ejemplo:</h3>
+        <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="es"&gt;
+    &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+        &lt;title&gt;Mi Página Web&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;¡Bienvenidos al Mundo de la Programación!&lt;/h1&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+        <h3>Ejercicio:</h3>
+        <p>Escribe un código HTML que contenga un título utilizando la etiqueta <code>&lt;h1&gt;</code> y el texto:
+            "¡Bienvenidos al Mundo de la Programación!"</p>
+        <textarea id="htmlExercise" placeholder="Escribe tu código HTML aquí..."></textarea>
+        <button onclick="checkHtmlCode()">Verificar</button>
+        <p id="htmlFeedback"></p>
+    </section>
+
+    <section id="css">
+        <h2>CSS - Estilizando tu Página</h2>
+        <p>CSS se utiliza para darle estilo a tus páginas web. Puedes cambiar colores, fuentes y disposición de los
+            elementos.</p>
+        <h3>Ejemplo:</h3>
+        <pre><code>body {
+    background-color: #f4f4f4;
+    color: #333;
+}</code></pre>
+        <h3>Explicación:</h3>
+        <p>Este código CSS cambia el color de fondo de la página a un gris claro y el color del texto a gris oscuro.</p>
+        <h3>Ejercicio:</h3>
+        <p>Usa CSS para cambiar el color de fondo de la página a un color claro y el color del texto a oscuro.</p>
+        <textarea id="cssExercise" placeholder="Escribe tu código CSS aquí..."></textarea>
+        <button onclick="checkCssCode()">Verificar</button>
+        <p id="cssFeedback"></p>
+    </section>
+
+    <section id="js">
+        <h2>JavaScript - Interactividad</h2>
+        <p>JavaScript permite añadir interactividad a las páginas web. Puedes hacer que el navegador ejecute código
+            cuando el usuario interactúa con la página.</p>
+        <h3>Ejemplo:</h3>
+        <pre><code>console.log("¡Hola Mundo!");</code></pre>
+        <h3>Explicación:</h3>
+        <p>Este código JavaScript imprime el mensaje "¡Hola Mundo!" en la consola del navegador.</p>
+        <h3>Ejercicio:</h3>
+        <p>Escribe un código JavaScript que imprima "¡Hola Mundo!" en la consola del navegador.</p>
+        <textarea id="jsExercise" placeholder="Escribe tu código JS aquí..."></textarea>
+        <button onclick="checkJsCode()">Verificar</button>
+        <p id="jsFeedback"></p>
+    </section>
+
+    <footer>
+        @2025 TheGamesBrothers - Todos los derechos reservados
+        <p>Desarrollado por TheGamesBrothers</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
